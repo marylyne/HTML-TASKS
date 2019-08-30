@@ -1,0 +1,83 @@
+body {
+	background: gray;
+}
+
+.skl, .edn, .wrk {
+	line-height: 2
+}
+
+header {
+	height: 100%;
+	background-color: rgb(35, 8, 69);
+	padding: 5px 10px;
+	border-color: rgb(181, 27, 143);
+	border-style: outset;
+	border-radius: 7px 14px;
+	color: white;
+
+}
+
+.pic {
+	margin-right: 5px;
+	float: right;
+	border-radius: 20%;
+	height: 100px;
+}
+
+.hd1 {
+	color: rgb(161, 21, 126);
+	font-family: courier;
+	text-shadow: white 1px 3px;
+
+}
+
+.hd2 {
+	font-family: "Arial Black";
+	font-size: 18px;
+	font-weight: bold;
+	color: rgb(166, 20, 141);
+}
+
+em {
+	font-size: 13px;
+	font-weight: bold;
+}
+
+table {
+	width:100%;
+	border: 2px solid grey;
+	height: 50px;
+}
+
+td:hover, .tdrr:hover {
+	background-color: rgb(224, 193, 217);
+	border: 2.5px solid rgb(0,0,0,0);
+}
+
+tr:firstchild {
+	background-color: rgb(0,0,0);
+}
+
+
+td, .edu {
+	padding: 15px;
+	font-family: "Comic Sans MS";
+	vertical-align: bottom;
+}
+
+.tdr {
+	background-color: rgb(250, 240, 248);
+}
+
+.tdrr {
+	background-color: rgb(233, 239, 242, 0.5);
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background: rgb(0,0,0);
+  margin-top: 20px;
+  color: white;
+
+}
